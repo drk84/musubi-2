@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+   
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    margin:0 0 1rem 0;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin-top:0.25rem;
+}
+
+h1 {
+  font-size: 3rem;
+  letter-spacing: -0.01em;
+}
+
+h2 {
+  font-size: 2.25rem;
+  letter-spacing: 0em;
+}
+
+h3 {
+  font-size: 1.75rem;
+  letter-spacing: 0.01em;
+}
+
+h4 {
+  font-size: 1.5rem;
+  letter-spacing: 0.02em;
+}
+
+h5 {
+  font-size: 1.25rem;
+  letter-spacing: 0.03em;
+}
+
+h6 {
+  font-size: 1rem;
+  letter-spacing: 0.04em;
+}
+
+
+p{
+    font-weight:300;
+}
+
+body{
+    font-size:16px;
+    margin:0;
+}
+
+video, img{
+    display:block;
+}

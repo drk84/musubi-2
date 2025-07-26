@@ -1,0 +1,77 @@
+ 
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" grid="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" grid="ie=edge">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/default.css?v=<?= filemtime('css/normalize.css')?>">
+        <link rel="stylesheet" href="css/musubi-2.css?v=<?= filemtime('css/musubi-2.css') ?>">
+        <script type="module" src="js/musubi-2.js"></script>
+
+    </head>
+    <body>
+        <nav>
+            
+        </nav>
+        <section>
+
+        </section>
+        <section class=" section flex bg row v-center">
+            <div class="article-image">
+                    <img src="images/01.jpg" alt="Classic Spam Musubi"/>
+            </div>
+            <article class="article ">
+                <div class="article-title">
+                    <h1>Classic Spam Musubi</h1>
+                </div>
+                <div class="article-text">
+                    <p>The all-time favorite. Grilled premium Spam glazed with our signature sweet-savory sauce, nestled on a bed of fluffy Japanese rice and wrapped in roasted nori. Simple, nostalgic, and irresistibly satisfying.</p>
+                </div>
+                <div class="article-price"><h6>Only P65</h6></div>
+                
+            </article>
+        </section>
+        <section class=" section flex  bg-alt row-reverse v-center">
+            <div class="article-image">
+                    <img src="images/06.jpg" alt="Spicy Tuna Musubi"/>
+            </div>
+            <article class="article ">
+                <div class="article-title">
+                    <h1>Spicy Tuna Musubi</h1>
+                </div>
+                <div class="article-text">
+                    <p>A proud Filipino twist! Tender, juicy chunks of homemade Chicken Adobo—marinated in soy sauce, vinegar, garlic, and bay leaf—layered over seasoned rice. A bold, comforting bite that tastes like home. </p>
+                </div>
+                <div class="article-price"><h6>Only P75</h6></div>
+                
+            </article>
+        </section>
+        <section class=" section flex  bg row v-center">
+            <div class="article-image">
+                    <img src="images/04.jpg" alt="Chicken Adobo Musubi" loading="lazy"/>
+            </div>
+            <article class="article ">
+                <div class="article-title">
+                    <h1>Chicken Adobo Musubi</h1>
+                </div>
+                <div class="article-text">
+                    <p> A fiery kick in every bite. Creamy spicy tuna mixed with our special mayo, balanced with warm rice and crisp seaweed wrap. For the bold, the curious, and the craving. </p>
+                </div>
+                <div class="article-price"><h6>Only P85</h6></div>
+                
+            </article>
+        </section>
+       <section class="section flex bg-alt row-reverse v-center">
+            
+       </section>
+        <footer>
+
+        </footer>
+    </body>
+</html>
