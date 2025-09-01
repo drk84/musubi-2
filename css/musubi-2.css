@@ -47,7 +47,7 @@ section{
 }
 
 .h-center{
-    justify-items: center;
+    justify-content: center;
 }
 
 .v-center{
@@ -59,7 +59,13 @@ section{
     height:auto;
     margin:1rem 2rem;
 }
+.half{
+    flex:1 1 75%;
+}
 
+.half-2{
+    flex: 1 1 25%;
+}
 .price.bg{
     color: var(--secondary-color);
 }
