@@ -56,4 +56,15 @@ body{
 
 video, img{
     display:block;
+    width:100%;
+    
+}
+
+ul.inline{
+ padding:0
+}
+.inline li{
+  display:inline-block;
+  margin-right: 2rem;
+  font-family: 'Roboto Slab', serif;
 }
