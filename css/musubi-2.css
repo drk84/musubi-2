@@ -22,11 +22,6 @@ h1{
     font-weight:700;
 
 }
-section{
-
-    
-}
-
 .text{
     padding:4rem;
     font-size:1.5rem;
@@ -83,6 +78,51 @@ section{
     margin: 0;
     font-size:2rem;
     font-weight:700;
+}
+
+#about {
+   transform:translateX(-100%);
+}
+
+footer{
+    padding:4rem;
+    justify-content: space-between;
+}
+
+.social-icons, .contact-icons {
+    display: flex;
+    gap: 4rem;
+    padding:3rem 0;
+    justify-content: space-between;
+}
+
+.bg-alt .social-icons a, .bg-alt .contact-icons a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.bg-alt .social-icons a:hover, .bg-alt .contact-icons a:hover {
+    color: gold;
+}
+
+.trasla{
+    animation-name: trasla;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+@keyframes trasla{
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+i{
+    font-size:3rem;
+   
 }
 /* Tablet */
 @media (min-width: 768px) {  
