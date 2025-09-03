@@ -70,7 +70,7 @@ h1{
 }
 .text{
     padding:4rem;
-    font-size:1.5rem;
+    font-size:2rem;
     font-family:'Roboto Slab', serif;
 }
 .flex{
@@ -200,5 +200,8 @@ i{
    #intro .logo-bg{
         min-height:100vh;
 
+   }
+   .text{
+        font-size:1.5rem;
    }
 }
