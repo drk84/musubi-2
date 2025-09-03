@@ -146,12 +146,12 @@ footer{
     justify-content: space-between;
 }
 
-.bg-alt .social-icons a, .bg-alt .contact-icons a {
-    color: var(--primary-color);
+.bg .social-icons a, .bg .contact-icons a {
+    color: var(--secondary-color);
     text-decoration: none;
 }
 
-.bg-alt .social-icons a:hover, .bg-alt .contact-icons a:hover {
+.bg .social-icons a:hover, .bg .contact-icons a:hover {
     color: gold;
 }
 
@@ -207,4 +207,6 @@ i{
    .text{
         font-size:1.5rem;
    }
+
+  
 }
