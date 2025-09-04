@@ -138,7 +138,11 @@ footer{
     padding:4rem;
     justify-content: space-between;
 }
-
+.contact, .social{
+    text-align:center;
+    color:var(--secondary-color);
+    text-transform: uppercase;
+}
 .social-icons, .contact-icons {
     display: flex;
     gap: 4rem;

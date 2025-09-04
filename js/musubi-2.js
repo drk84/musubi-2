@@ -18,3 +18,7 @@ const callback = ( entries, observer ) => {
 const observer = new IntersectionObserver(callback, options);
 const targets = document.querySelectorAll('main section');
 targets.forEach(target => observer.observe(target));
+
+document.addEventListener('DOMContentLoaded', () => {
+document.querySelector('.contact-icons a:nth-of-type(2)').setAttribute('href', 'https://wa.me/6309564526718?text='+encodeURIComponent('Hello Missuv! I would like to inquire about...'));
+});
